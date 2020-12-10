@@ -3,5 +3,6 @@
   "packages": [
     "packages/*"
   ],
-  "version": "2.5.0-alpha.1"
+  "version": "2.5.0-alpha.1",
+  "nohoist": ["core-js", "vue", "rollup-plugin-vue"]
 }
